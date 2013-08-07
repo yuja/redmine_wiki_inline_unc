@@ -1,3 +1,8 @@
 = redmine_wiki_inline_unc
 
-Description goes here
+This plugin converts UNC-like string to hyperlink automatically.
+
+== See also
+
+{redmine_wiki_unc plugin}[https://github.com/bearmini/redmine_wiki_unc]
+provides <code>{{unc()}}</code> macro.
