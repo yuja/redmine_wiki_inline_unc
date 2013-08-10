@@ -8,6 +8,7 @@ module WikiInlineUncHelper
     %|<a class="external" href="#{escurl}">#{escbody}</a>|.html_safe
   end
   module_function :auto_unc_link_to
+  private_class_method :auto_unc_link_to
 
   def auto_unc_link!(text)
     # assumes server name is ascii, but paths may contain non-ascii words
